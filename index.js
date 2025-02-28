@@ -9,7 +9,7 @@ $.when($.ready).then(function () {
     nameButton.on("click", function () {
         const mySillyName = sillyName();
         const mySuperHero = randomSuperhero();
-        const funnyMessage = `Whassup, ${mySillyName}? I am your superhero ${mySuperHero}!`;
+        const funnyMessage = `Whassup? ${mySillyName}! I am your superhero ${mySuperHero}!`;
         output.text(funnyMessage);
     });
 });
